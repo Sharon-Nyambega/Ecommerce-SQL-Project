@@ -1,0 +1,14 @@
+*.py text eol=lf
+*.sql text eol=lf
+*.ipynb text eol=lf
+*.csv text eol=lf
+
+# Optional: Windows-specific files can keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Prevent Git from altering binary files
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary
